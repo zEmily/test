@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="X-AU-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="张瑶丹应聘前端实习，目的地最好上浙沪"/>
+    <meta  name="keywords" content="张瑶丹；前端；web；实习"/>
+    <title>张瑶丹简历</title>
+    <link rel="stylesheet" href="resume.css"/>
+    <link rel="shortcut icon" href="" />
+    <script src="resume.js"></script>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#brief-intro">简介</a></li>
+        <li><a href="#capability">技能</a></li>
+        <li><a href="#works">作品</a></li>
+        <li><a href="#contact">联系</a></li>
+    </ul>
+
+</nav>
+<section id="brief-intro" class="wrap">
+    <img alt="photo" src="img/myphoto.jpg">
+    <article>
+        <h3>编程之路:</h3> <p>偏前端，爱玩 CSS 和 JavaScript 。没入门时直接拿 jquery 来用，但用得不踏实，所以马上投入了原生 JS 的怀抱。曾被劝在 Linux 下用 Vim 码字，但苦于双系统下的 Ubuntu 老让电脑叫唤，遂铁了心在 win 下工作，一切代码都在 IntelliJ IDEA 中编辑。但同时，这也不妨碍我用 Git 管理自己的代码。</p>
+        <p>最爱在 FF 下调试代码，也不忘跑去 VirtualBox 里看看 IE6 的表现。喜欢用 AI 做些小图案，用PS画原型。</p>
+        <h3>英语六级:</h3><p>519分</p>
+    </article>
+</section>
+<section id="capability" class="wrap">
+    <ul id="hd">
+        <li class="current">HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>SQL</li>
+    </ul>
+    <div id="bd">
+        <article class="current">曾经我也是滥用 div 的家伙，是 html5 更加语义化的标签将我拯救。我能写结构、样式、行为有效分离且结构美观的页面，而且不忽视阅读障碍的群体。</article>
+        <article>我喜欢她看似简单的外表，虽然她老是在别家浏览器上“表现不一”。但只要好好“收拾”一番，美丽友好的外貌便又看见了。在使用 CSS 方面，我深谙规范书写 class 和 id 名所带来的美感。在 class 与 id 的连接符应该用“-”，而不是“_” or 驼峰写法。一些细节也显得尤为重要，例如 onfocus="this.blur()" 所带来的读屏障碍。</article>
+        <article >JS最初是用来提交表单用的，不过现在它很多时候用来完成 CSS 无法完成的效果。我喜欢 JS 友好的交互，我也看了《JavaScript DOM 编程艺》、《JavaScript 高级程序设计》这两本书，但是在学习的路上，还是有不少难题，比如闭包的概念与具体使用。学习之路的下一步是好好看 YUI3 的源码，不敢说学习写框架，我只是想先学会优雅地写代码 ：）</article>
+        <article>PHP对我而言，算是半个后端语言了。会的实在不多，但我还是能让表单成功提交的。</article>
+        <article>数据库与PHP配合让我完成了一个小小提交表单的功能。我只掌握了如何连接数据库、建立数据库/表、增删减等基本技能。</article>
+    </div>
+</section>
+<section id="works" class="wrap">作品</section>
+<section id="contact" class="wrap">
+    <form method="post" action="form.php">
+        <section>
+            <label for="mail">邮箱<span>*</span></label>
+            <input type="mail" id="mail" name="mail">
+        </section>
+        <section>
+            <label for="company">所在公司<span>*</span></label>
+            <input type="text" id="company" name="company"/>
+        </section>
+        <section>
+            <label for="user">称谓<span>*</span></label>
+            <input type="text" id="user" name="user"/>
+        </section>
+        <section>
+            <label for="message">附加信息</label>
+            <textarea id="message" name="message" ></textarea>
+        </section>
+        <section>
+            <input id="submit" type="submit" value="submit"/>
+        </section>
+    </form>
+</section>
+</body>
+</html>
