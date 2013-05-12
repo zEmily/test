@@ -27,7 +27,7 @@ nav a:hover{background: #40835e;}
 #capability{position:relative;height:305px;}
 #capability ul{width:200px;position:absolute;left:0;top:0;text-align: center;}
 #hd li{width:200px;height:60px;line-height:60px;font-size:20px;background:#005831;border-bottom: 1px solid #40835e;color:white;}
-#hd li.current{border-right:10px solid #50b7c1;background:#40835e;}
+#hd li.current{border-right:10px solid #50b7c1;border-top-right-radius:10px;    border-bottom-right-radius:10px;background:#40835e;}
 #bd article{width:480px;height:265px;background:#00ae9d;color:white;position:absolute;top:0;right:0;font-size:20px;line-height:180%;padding:20px 25px;opacity:0.7;}
 #bd article.current{opacity:1;}
 /* works */

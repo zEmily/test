@@ -6,7 +6,7 @@ $timeout = 60;
 //curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
-curl_setopt($ch, CURLOPT_USERPWD, "club:55555555");
+curl_setopt($ch, CURLOPT_USERPWD, "guest");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 $info = curl_exec($ch);
