@@ -1,19 +1,10 @@
 <?php
 $con = mysql_connect("localhost","resume","456123");
-if(!$con)
-{
-die('Could not connect:' . mysql_error());
+if(!$con) {
+    die('Could not connect:' . mysql_error());
 }
 mysql_select_db("resume",$con);
-/*
-$sql = "CREATE TABLE Info
-(Mail varchar(30),
-Company varchar(20),
-User varchar(10),
-Message varchar(300)
-)";
-mysql_query($sql,$con);
-*/
+
 $mail = ( isset($_POST['mail']) ) ? trim($_POST['mail']) : 'x@x';
 $company = ( isset($_POST['company']) ) ? trim($_POST['company']) : 'x';
 $user = ( isset($_POST['user']) )? trim($_POST['user']) : 'anonymous';
@@ -23,26 +14,7 @@ $sql="INSERT INTO info(Mail,Company,User,Message)
       VALUES('$mail','$company','$user','$message')";
 mysql_query($sql, $con);
 echo "Thanks for your message! <br><a href='/resume/1.html'>return</a>";
-echo "<br><ul><li>mail: $mail</li><li>company: $company</li><li>user: $user</li><li>message: $message</li></ul>";
-
-
-// $result = mysql_query("SELECT * FROM Info");
-//echo"<table border='1'>
-//<tr>
-//<th>Email</th>
-//<th>Company</th>
-//<th>User</th>
-//<th>Message</th>
-//</tr>";
-//while($row = mysql_fetch_array($result))
-//{
-//echo"<tr>" ;
-//echo"<td>".$row['Mail']."</td>";
-//echo"<td>".$row['Company']."</td>";
-//echo"<td>".$row['User']."</td>";
-//echo"<td>".$row['Message']."</td>";
-//}
-//echo"</table>";
+//echo "<br><ul><li>mail: $mail</li><li>company: $company</li><li>user: $user</li><li>message: $message</li></ul>";
 
 mysql_close($con)
 ?>

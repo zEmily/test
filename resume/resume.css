@@ -28,7 +28,7 @@ nav a:hover{background: #40835e;}
 #capability ul{width:200px;position:absolute;left:0;top:0;text-align: center;}
 #hd li{width:200px;height:60px;line-height:60px;font-size:20px;background:#005831;border-bottom: 1px solid #40835e;color:white;}
 #hd li.current{border-right:10px solid #50b7c1;border-top-right-radius:10px;    border-bottom-right-radius:10px;background:#40835e;}
-#bd article{width:480px;height:265px;background:#00ae9d;color:white;position:absolute;top:0;right:0;font-size:20px;line-height:180%;padding:20px 25px;opacity:0.7;}
+#bd article{width:480px;height:265px;background:#00ae9d;color:white;position:absolute;top:0;right:0;font-size:20px;line-height:180%;padding:20px 25px;opacity:0;}
 #bd article.current{opacity:1;}
 /* works */
 #works{height:300px;border:1px solid #9acd32}
@@ -40,3 +40,5 @@ textarea {min-width: 300px;min-height: 100px;max-height:100px;max-width:300px;bo
 input{font:20px Microsoft YaHei thin;border:1px solid#556b2f;padding:3px; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius:5px ;}
 #submit {margin-left: 120px;width:100px;height:34px;font-size:14px;font-weight:bold;background: #9acd32;color:white;}
 span{color:red;font-size: 20px;}
+/*up*/
+#up{position:fixed;left:50%+400px;top:50%+100px;;width:40px;height:40px;line-height:40px;text-align:center;margin-left:385px;margin-top:200px;background:#556b2f;}
