@@ -1,0 +1,7 @@
+.bash*
+*.swp
+.vim*
+.ssh/*
+.mysql_history
+.gitconfig
+/examples/
