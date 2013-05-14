@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style >
+        body{font:STHeiti;}
+
+         section{margin-bottom:20px;}
+         label {float: left;width:100px;text-align: right;margin-right:20px;font-weight: bold;color:#556b2f;;}
+         textarea {min-width: 300px;min-height: 100px;max-height:100px;max-width:300px;border:1px solid #556b2f;padding:3px 0 0 3px ; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius:5px;font:20px Microsoft YaHei thin;}
+         input{font:20px Microsoft YaHei thin;border:1px solid#556b2f;padding:3px; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius:5px ;}
+        input[type="submit"]{margin-left: 120px;width:100px;height:34px;font-size:14px;font-weight:bold;background: #9acd32;color:white;}
+        span{color:red;font-size: 20px;}
+    </style>
+</head>
+<form method="post" action="form.php">
+    <section>
+        <label for="mail">邮箱<span>*</span></label>
+        <input type="text" id="mail" name="mail">
+    </section>
+    <section>
+        <label for="company">所在公司<span>*</span></label>
+        <input type="text" id="company" name="company"/>
+    </section>
+    <section>
+        <label for="user">称谓<span>*</span></label>
+        <input type="text" id="user" name="user"/>
+    </section>
+    <section>
+        <label for="message">附加信息</label>
+        <textarea id="message" name="message" ></textarea>
+    </section>
+    <section>
+        <input type="submit" value="submit"/>
+    </section>
+</form>
+</html>
