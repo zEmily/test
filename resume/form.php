@@ -13,7 +13,7 @@ $message = ( isset($_POST['message']) ) ? trim($_POST['message']) : '';
 $sql="INSERT INTO info(Mail,Company,User,Message)
       VALUES('$mail','$company','$user','$message')";
 mysql_query($sql, $con);
-echo "Thanks for your message! <br><a href='/resume/1.html'>return</a>";
+echo "Thanks for your message! <br><a href='/index.html'>return</a>";
 //echo "<br><ul><li>mail: $mail</li><li>company: $company</li><li>user: $user</li><li>message: $message</li></ul>";
 
 mysql_close($con)
