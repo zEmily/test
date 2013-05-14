@@ -15,6 +15,7 @@ curl_close($ch);
 $info = json_decode($info, true);
 
 echo "<br><b>用户 $username  信息: </b><br>";
+// haha
 ?>
 <div id='userinfo'>
   <div>id: <?php echo $info['id']; ?></div>
