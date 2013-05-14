@@ -4,4 +4,5 @@
 .ssh/*
 .mysql_history
 .gitconfig
+.less*
 /examples/
